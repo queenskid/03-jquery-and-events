@@ -41,7 +41,7 @@ articleView.handleAuthorFilter = function() {
       // DONE: If the <select> menu was changed to an option that has a value, we first need to hide all the articles, and then show just the ones that match for the author that was selected.
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
       $('#articles article').hide();
-      $(`article[data-author="${$(this).val()}"]`).show();
+      $(`#articles article[data-author="${$(this).val()}"]`).show();
 
     } else {
       // DONE: If the <select> menu was changed to an option that is blank, we should first show all the articles, except the one article we are using as a template.
@@ -60,7 +60,7 @@ articleView.handleCategoryFilter = function() {
   $('#category-filter').on('change', function() {
     if ($(this).val()) {
       $('#articles article').hide();
-      $(`article[data-category="${$(this).val()}"]`).show();
+      $(`#articles article[data-category="${$(this).val()}"]`).show();
     } else {
       $('#articles article').hide();
       $('#articles article').not('.template').fadeIn();
