@@ -1,7 +1,7 @@
 # Project Name
 
 **Author**: Matt LeBlanc-Andres Ibarra
-**Version**: 1.1.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Version**: 1.1.1 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
@@ -22,6 +22,8 @@
 10-26-2017 10:42am - set up option select menu
 
 10-26-2017 11:28am - filter by author | category working
+
+10-26-2017 11:37am - added stylesheets
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
