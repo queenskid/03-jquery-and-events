@@ -1,7 +1,7 @@
 # Project Name
 
 **Author**: Matt LeBlanc-Andres Ibarra
-**Version**: 1.1.2 (increment the patch/fix version number up if you make more commits past your first submission)
+**Version**: 1.1.3 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
@@ -26,6 +26,8 @@
 10-26-2017 11:37am - added stylesheets
 
 10-26-2017 12:21 - added nav menu event handler
+
+10-26-2017 1:35pm - added functionality to read on link
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
